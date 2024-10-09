@@ -1,0 +1,11 @@
+{
+  "name": "codefactory-nest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SpringDream0406/codefactory-nest",
+  "author": "SpringDream0406 <springdream0406@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
