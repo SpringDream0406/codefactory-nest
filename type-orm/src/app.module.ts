@@ -7,6 +7,7 @@ import { StudentModel, TeacherModel } from './entity/person.entity';
 import { BookModel, CarModel } from './entity/inheritance.entity';
 import { ProfileModel } from './entity/profile.entity';
 import { PostModel } from './entity/post.entity';
+import { TagModel } from './entity/tag.entity';
 
 @Module({
   imports: [
@@ -25,6 +26,7 @@ import { PostModel } from './entity/post.entity';
         CarModel,
         ProfileModel,
         PostModel,
+        TagModel,
       ],
       synchronize: true,
     }),
@@ -32,6 +34,7 @@ import { PostModel } from './entity/post.entity';
       UserModel, //
       ProfileModel,
       PostModel,
+      TagModel,
     ]),
   ],
   controllers: [AppController],
